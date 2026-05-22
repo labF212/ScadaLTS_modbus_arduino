@@ -1,0 +1,66 @@
+ //<!-- HCR-04 -->
+
+var altura = Math.max(0, value); // pode ajustar limites se quiser
+
+return ""
+
++ "<div style='"
++ "width:320px;"
++ "height:420px;"
++ "padding:15px;"
++ "border-radius:20px;"
++ "background:#f2f2f2;"
++ "border:2px solid #cccccc;"
++ "font-family:Arial;"
++ "box-shadow:0px 4px 10px rgba(0,0,0,0.2);"
++ "box-sizing:border-box;"
++ "'>"
+
++ "<div style='"
++ "font-size:22px;"
++ "font-weight:bold;"
++ "text-align:center;"
++ "margin-bottom:15px;"
++ "color:#333;"
++ "'>"
++ "HCR-04"
++ "</div>"
+
++ "<div style='"
++ "background:white;"
++ "border-radius:15px;"
++ "padding:20px;"
++ "text-align:center;"
++ "box-shadow:0 2px 6px rgba(0,0,0,0.1);"
++ "height:320px;"
++ "display:flex;"
++ "flex-direction:column;"
++ "justify-content:center;"
++ "align-items:center;"
++ "'>"
+
++ "<div style='"
++ "display:flex;"
++ "align-items:center;"
++ "justify-content:center;"
++ "gap:8px;"
++ "font-size:16px;"
++ "color:#555;"
++"margin-bottom:200px;"
++ "'>"
++"<span>🛢️</span>"
++ "<span>Altura do Tanque</span>"
++ "</div>"
+
++ "<div style='"
++ "margin-top:12px;"
++ "font-size:34px;"
++ "font-weight:bold;"
++ "color:#222;"
++ "'>"
++ altura.toFixed(0) + " cm"
++ "</div>"
+
++ "</div>"
+
++ "</div>";
