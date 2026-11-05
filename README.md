@@ -28,7 +28,8 @@ docker compose down
 
 docker compose up -d
 
-alterar o fciheiro de configuração
+## Alterar o ficheiro de configuração
 
 nano docker-compose.yml
+
 image: scadalts/scadalts:2.8.1 ou escolher a próxima
