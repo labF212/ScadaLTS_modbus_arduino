@@ -6,7 +6,7 @@ docker compose up -d
 
 ## close docker:
 
-docker-compose down
+docker compose down
 
 ## endereço do scada:
 
